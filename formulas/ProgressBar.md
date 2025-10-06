@@ -24,7 +24,7 @@ Você pode utilizar para medir o progresso de determinados contextos dentro do a
 
 ## Casos aplicados (mais complexo de copiar e colar)
 
-## Caso aplicado 1
+## Caso aplicado 1 (Exemplo 3 aprimorado)
 O objetivo desse caso aplicado era criar uma base de progresso com os campos já preenchidos de um formulário.
 Foi necessário criar algumas <b>constantes locais</b> para fazer essa contagem de campos já preenchidos.
 Para facilitar o entendimento, dividi a fórmula com comentários e no comentário final fica disponibilizado o HTML baseado no Exemplo 3 (Barra de progresso simples + largura e altura definidas + legenda centralizada)
