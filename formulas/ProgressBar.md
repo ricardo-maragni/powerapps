@@ -1,6 +1,8 @@
 # Barra de progresso
 Você pode utilizar para medir o progresso de determinados contextos dentro do aplicativo.
 
+## Exemplos (mais simples de copiar e colar)
+
 ## Exemplo 1: Barra de progresso simples
 ```powerfx
 "<progress value='75' max='100'></progress>"
@@ -17,4 +19,12 @@ Você pode utilizar para medir o progresso de determinados contextos dentro do a
 <progress value='60' max='100' style='width: 100%; height: 100%; accent-color:blue'></progress> 
 <span style=' position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: bold; color: white; '> 60% </span> </div>"
 ```
+
 <hr>
+
+## Exemplos aplicados (mais complexo de copiar e colar)
+
+## Caso referente ao Exemplo 1 
+```powerfx
+"<progress value='"&Label1.Text&"' max='100'></progress>"
+```
