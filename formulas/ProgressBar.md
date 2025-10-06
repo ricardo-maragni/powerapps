@@ -1,3 +1,21 @@
+# 🚀 Barra de progresso
+
+## 🧠 Descrição
+Você pode utilizar para medir o progresso de determinados contextos dentro do aplicativo.
+
+## 💻 Código Power Fx
+```powerfx
+IfError(
+    SubmitForm(Form1);
+    Notify("Erro ao enviar", NotificationType.Error);
+    Office365Outlook.SendEmailV2(
+        emails_lbl_1.Text;
+        "Aprovação necessária";
+        "Por favor, revise a solicitação: " & Form1.Last.SubmissionId
+    )
+)
+
+
 //Barra de progresso simples
 "<progress value='75' max='100'></progress>"
 
