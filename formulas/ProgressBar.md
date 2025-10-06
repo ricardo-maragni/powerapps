@@ -1,6 +1,4 @@
-# 🚀 Barra de progresso
-
-## 🧠 Descrição
+# Barra de progresso
 Você pode utilizar para medir o progresso de determinados contextos dentro do aplicativo.
 
 ## 💻 Código Power Fx
