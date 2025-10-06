@@ -1,6 +1,8 @@
 # Barra de progresso
 Você pode utilizar para medir o progresso de determinados contextos dentro do aplicativo.
 
+<progress></progress>
+
 ## Exemplo 1: Barra de progresso simples
 ```powerfx
 "<progress value='75' max='100'></progress>"
