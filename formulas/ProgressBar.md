@@ -1,8 +1,6 @@
 # Barra de progresso
 Você pode utilizar para medir o progresso de determinados contextos dentro do aplicativo.
 
-## Exemplos (mais simples de copiar e colar)
-
 ## ⏩ Utilizando a tag PROGRESS
 
 ## Exemplo 1: Barra de progresso simples
