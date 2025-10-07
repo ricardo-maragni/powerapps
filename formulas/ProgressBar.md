@@ -3,7 +3,7 @@ Você pode utilizar para medir o progresso de determinados contextos dentro do a
 
 ## Exemplos (mais simples de copiar e colar)
 
-## Utilizando a tag <progress></progress>
+## Utilizando a tag PROGRESS
 
 ## Exemplo 1: Barra de progresso simples
 ```powerfx
@@ -29,7 +29,7 @@ Você pode utilizar para medir o progresso de determinados contextos dentro do a
 <span style=' position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: left; margin-left: 20px; font-size: 20px; font-weight: bold; color: white; '> 8% </span> </div>"
 ```
 
-## Utilizando a tag <div></div>
+## Utilizando a tag DIV
 ```powerfx
 "<div style='width:100%;height:12px;background:lightgray;border-radius:999px;overflow:hidden'>
 <div style='width:75%;height:100%;background:green'></div>
