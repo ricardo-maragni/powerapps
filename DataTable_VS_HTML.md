@@ -1,8 +1,8 @@
 # DataTable VS HTML
 
-O cenário apresentado para avaliar as diferenças entre o DataTable e HTML consiste num Power Apps conectado à uma base no Sharepoint.
-A base de dados contém as colunas PartNumbers e Quantidade de PartNumbers que dividem as informações entre pipes " | ".
-Esse aplicativo contém a Gallery1 conectada à base do Sharepoint e agora precisamos criar uma tabela para visualizar os Part Numbers e suas respectivas quantidades.
+<p>O cenário apresentado para avaliar as diferenças entre o DataTable e HTML consiste num Power Apps conectado à uma base no Sharepoint.</p>
+<p>A base de dados contém as colunas PartNumbers e Quantidade de PartNumbers que dividem as informações entre pipes " | ".</p>
+<p>Esse aplicativo contém a Gallery1 conectada à base do Sharepoint e agora precisamos criar uma tabela para visualizar os Part Numbers e suas respectivas quantidades.</p>
 
 ## Via DataTable o código ficou assim:
 ``` power fx
