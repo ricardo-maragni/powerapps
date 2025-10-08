@@ -1,8 +1,9 @@
-# DataTable VS HTML
+# DataTable VS HTML Text
 
 <p>O cenário apresentado para avaliar as diferenças entre o DataTable e HTML consiste num Power Apps conectado à uma base no Sharepoint.</p>
 <p>A base de dados contém as colunas PartNumbers e Quantidade de PartNumbers que dividem as informações entre pipes " | ".</p>
 <p>Esse aplicativo contém a Gallery1 conectada à base do Sharepoint e agora precisamos criar uma tabela para visualizar os Part Numbers e suas respectivas quantidades.</p>
+<i>Obs: Enquanto o modelo com DataTable necessita apenas de Power FX, o modelo utilizando HTML Text necessita de Power FX, HTML e CSS.</i>
 
 ## Via DataTable o código ficou assim:
 ``` power fx
