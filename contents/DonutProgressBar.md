@@ -1,3 +1,7 @@
+# Barra de progresso circular tipo rosca
+Você pode utilizar para medir o progresso de determinados contextos dentro do aplicativo.
+
+```powerfx
 "
 <!-- Barra de progresso circular tipo rosca -->
 <div style='height:500px; aspect-ratio:1/1; border-radius:50%; 
@@ -14,3 +18,4 @@
   </div>
 </div>
 "
+```
