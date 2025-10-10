@@ -2,6 +2,7 @@
 
 ## Galeria com ordem de IDs, filtros de texto e comboboxes
 
+Formatação em pt-br 🇧🇷
 ```powerfx
 //Inicia ordenamento pela coluna ID
 SortByColumns(
