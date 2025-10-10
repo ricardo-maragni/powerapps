@@ -1,3 +1,7 @@
+# FAQ
+Modelo de FAQ para utilizar em seus aplicativos, disponibilizando os contatos da sua área.
+
+```powerfx
 With({
 EstiloHeading: "border: 1px solid lightgray; background:#001e50; color:white",
 EstiloBorda:"border: 1px solid lightgray"
@@ -45,3 +49,4 @@ Table(
 </html>
 "
 )
+```
