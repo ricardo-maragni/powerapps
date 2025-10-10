@@ -1,3 +1,8 @@
+# Galerias
+
+## Galeria com ordem de IDs, filtros de texto e comboboxes
+
+```powerfx
 //Inicia ordenamento pela coluna ID
 SortByColumns(
 
@@ -17,3 +22,4 @@ SuaSearchBox.Text; "Title");
 
 //Finaliza ordenamento pela coluna ID, de forma decrescente
 "ID";SortOrder.Descending)
+```
