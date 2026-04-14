@@ -2,6 +2,7 @@
 
 ## Visitas
 
+Adicionar no OnStart do app:
 ```powerfx
 If(
     IsBlank(varRegistroAcessoID),
@@ -23,6 +24,7 @@ If(
 
 ## Inputs
 
+Adicionar no OnSelect do botão de input:
 ```powerfx
 If(
     !IsBlank(varRegistroAcessoID),
