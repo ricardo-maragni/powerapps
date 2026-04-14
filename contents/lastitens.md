@@ -1,14 +1,6 @@
 # Carregar últimos itens de uma base de dados
-Obs: Fórmula feita com os 1000 últimos itens
+Obs: A quantidade máxima de últimos itens é igual ao número máximo de delegação que pode haver num app. No caso 2000.
 
-## 1º Jeito
 ```powerfx
-ClearCollect(colMyItems,FirstN(Sort(Terminer_V3,ID,SortOrder.Descending),1000))
-```
-
-## 2º Jeito
-```powerfx
-ClearCollect(colMyItems_Desc,FirstN(Sort(Terminer_V3,ID,SortOrder.Descending),10));
-ClearCollect(colMyItems,colMyItems_Desc);
-Clear(colMyItems_Desc);
+ClearCollect(colMyItems,FirstN(Sort(Terminer_V3,ID,SortOrder.Descending),2000))
 ```
