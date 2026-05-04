@@ -2,7 +2,9 @@
 
 1. Copie o código do .svg em algum desses sites:
 
-Ícones -> https://lucide.dev/
+Ícones:
+https://lucide.dev/
+https://www.svgrepo.com/
 
 Fundos -> https://app.haikei.app/
 
