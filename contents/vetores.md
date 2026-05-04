@@ -1,12 +1,12 @@
 # Como criar ícones / vetores
 
-1. Acessar o https://lucide.dev/
+1. Copie o código do .svg em algum desses sites:
 
-2. Pesquisar o ícone que você quer
+Ícones -> https://lucide.dev/
 
-3. Clicar em copy svg
+Fundos -> https://app.haikei.app/
 
-4. Substituir no código:
+2. Substituir no código:
 
 ```
 "data:image/svg+xml;utf8," & EncodeUrl(...)
