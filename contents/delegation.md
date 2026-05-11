@@ -1,6 +1,13 @@
 # Quebrando a delegação
 
-## 1 - Dividindo a Sharepoint List em 2 partes e depois agrupar
+## 1 - Método simples
+
+```powerfx
+ClearCollect(colMyItems,FirstN(Sort(SolicitacaoDeNovoEmbarqueDeImportacao,ID,SortOrder.Descending),2000));
+```
+
+
+## 2 - Dividindo a Sharepoint List em 2 partes e depois agrupar
 
 ```powerfx
 // 1) Pega os primeiros 3000 (IDs menores)
